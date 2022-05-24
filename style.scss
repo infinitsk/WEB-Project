@@ -38,11 +38,21 @@ nav{
     color: white;
     transition: 2s;
 }
+.linky1{
+    text-decoration: none;
+    color: white;
+    transition: 2s;
+}
 .linky:hover{
     background-color: lightblue;
     transition: 3s;
     border-radius: 5px;
     font-size: 24.1px;
+}
+.linky1:hover{
+    background-color: lightblue;
+    transition: 1.5s;
+    border-radius: 5px;
 }
 button{
     float: right;
@@ -128,4 +138,5 @@ nav ul li ul li{
 }
 nav ul li ul li a:hover{
     background-color: rgb(192, 176, 176);
-  }      
+  }     
+  

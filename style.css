@@ -47,12 +47,26 @@ nav {
   transition: 2s;
 }
 
+.linky1 {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
 .linky:hover {
   background-color: lightblue;
   -webkit-transition: 3s;
   transition: 3s;
   border-radius: 5px;
   font-size: 24.1px;
+}
+
+.linky1:hover {
+  background-color: lightblue;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  border-radius: 5px;
 }
 
 button {
