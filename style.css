@@ -116,7 +116,7 @@ body {
 footer {
   background-image: -webkit-gradient(linear, left top, right top, from(#000000), color-stop(#19000b), color-stop(#230019), color-stop(#290028), color-stop(#29003b), color-stop(#2b004f), color-stop(#270166), color-stop(#0e097f), color-stop(#170e9a), color-stop(#2014b6), color-stop(#291ad3), to(#3220f0));
   background-image: linear-gradient(to right, #000000, #19000b, #230019, #290028, #29003b, #2b004f, #270166, #0e097f, #170e9a, #2014b6, #291ad3, #3220f0);
-  height: 7vh;
+  height: 5.5vh;
   font-size: 50px;
   text-align: center;
   border-top: solid black 5px;
