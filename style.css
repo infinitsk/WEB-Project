@@ -1,4 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fix {
+  padding-left: 2vw;
+}
+
+.imgsize {
+  height: 90px;
+  margin: 8px;
+  float: left;
+}
+
+.textpadding {
+  float: left;
+  line-height: 2.6;
+  font-size: 40px;
+}
+
+nav {
+  height: 11vh;
+  letter-spacing: 2px;
+  border-bottom: solid 5px black;
+  background-color: #05054d;
+  width: 100%;
+}
+
+.floatl {
+  font-size: 23px;
+  padding-left: 12%;
+  line-height: 5;
+  float: left;
+}
+
+.floatr {
+  float: right;
+  padding-right: 2vw;
+}
+
+.linky {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.linky:hover {
+  background-color: lightblue;
+  -webkit-transition: 3s;
+  transition: 3s;
+  border-radius: 5px;
+  font-size: 24.1px;
+}
+
+button {
+  float: right;
+  padding-right: 200px;
+  padding-top: 50px;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  margin: 35px;
+  font-size: 1rem;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: white;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(rgba(0, 0, 0, 0.2)), color-stop(30%, rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  -webkit-box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+          box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+button:hover {
+  background-color: #c0b0b0;
+}
+
+button:active {
+  -webkit-box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(221, 214, 214, 0.6);
+          box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(221, 214, 214, 0.6);
+}
+
+.tlacidlo {
+  text-decoration: none;
+  color: black;
+}
+
 body {
-  color: red;
+  color: white;
+}
+
+.porche {
+  background-image: url(porche.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 82.1vh;
+}
+
+footer {
+  background-image: -webkit-gradient(linear, left top, right top, from(#000000), color-stop(#19000b), color-stop(#230019), color-stop(#290028), color-stop(#29003b), color-stop(#2b004f), color-stop(#270166), color-stop(#0e097f), color-stop(#170e9a), color-stop(#2014b6), color-stop(#291ad3), to(#3220f0));
+  background-image: linear-gradient(to right, #000000, #19000b, #230019, #290028, #29003b, #2b004f, #270166, #0e097f, #170e9a, #2014b6, #291ad3, #3220f0);
+  height: 7vh;
+  font-size: 50px;
+  text-align: center;
+  border-top: solid black 5px;
+  padding-top: 5px;
+  letter-spacing: 3px;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 0px 14px;
+  margin-bottom: 0px;
+  text-decoration: none;
+  display: block;
+  float: left;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #05054d;
+  padding: 10px;
+  border-radius: 5px;
+  border-left: solid black 5px;
+  border-bottom: solid black 5px;
+  border-right: solid black 5px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  width: 180px;
+  border-radius: 5px;
+  padding: -10px;
+}
+
+nav ul li ul li a:hover {
+  background-color: #c0b0b0;
 }
 /*# sourceMappingURL=style.css.map */
