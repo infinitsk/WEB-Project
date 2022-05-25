@@ -8,21 +8,22 @@
   padding-left: 2vw;
 }
 
-.imgsize {
+.koleso {
   height: 90px;
-  margin: 8px;
+  margin: 25px;
   float: left;
 }
 
-.imgsize1 {
+.bin {
   height: 90px;
   margin: 8px;
   float: right;
+  width: 100%;
 }
 
 .textplace {
   float: left;
-  line-height: 2.6;
+  margin-top: 50px;
   font-size: 40px;
 }
 
@@ -51,6 +52,7 @@ nav {
   color: white;
   -webkit-transition: 2s;
   transition: 2s;
+  font-size: 1.6rem;
 }
 
 .linky1 {
@@ -58,6 +60,7 @@ nav {
   color: white;
   -webkit-transition: 2s;
   transition: 2s;
+  font-size: 1.6rem;
 }
 
 .linky:hover {
@@ -83,7 +86,7 @@ button {
   line-height: 2.5;
   padding: 0 20px;
   margin: 35px;
-  font-size: 1rem;
+  font-size: 1.6rem;
   text-align: center;
   text-shadow: 1px 1px 1px #000;
   border-radius: 10px;
@@ -172,133 +175,38 @@ nav ul li ul li a:hover {
   background-color: #c0b0b0;
 }
 
-@media (max-width: 1620px) {
-  nav {
-    height: 20vh;
-  }
-  .textplace {
-    line-height: 3;
-    font-size: 50px;
-  }
-  .imgsize {
-    height: 120px;
-    padding-top: 1vh;
-  }
-  .imgsize1 {
-    float: left;
-  }
-  .linky {
-    font-size: 25px;
-  }
-  .linky1 {
-    font-size: 25px;
-  }
-  .porche {
-    background-attachment: fixed;
-    background-position: center bottom;
-  }
-}
-
-@media (max-width: 1390px) {
-  .imgsize1 {
-    float: left;
+@media screen and (max-width: 1875px) {
+  .bin {
     display: none;
   }
-  button {
-    margin-top: -200px;
-    font-size: 30px;
-  }
-  .textplace {
-    line-height: 2.5;
-    font-size: 50px;
-  }
-  .linky {
-    font-size: 25px;
-    line-height: 3;
-    margin-left: -4vw;
-  }
-  .linky1 {
-    font-size: 25px;
-    line-height: 3;
-    margin-left: -3vw;
-  }
-  .porche {
-    background-attachment: fixed;
-    background-position: center bottom;
-  }
 }
 
-@media (max-width: 900px) {
-  .linky {
-    font-size: 20px;
-    line-height: 3;
-    float: left;
-    margin-left: -7vw;
-  }
-  .linky1 {
-    font-size: 20px;
-    line-height: 3;
-    float: center;
-    margin-right: 1vw;
-  }
-  .porche {
-    background-attachment: fixed;
-    background-position: center bottom;
-  }
-  button {
-    margin-top: -235px;
-    font-size: 30px;
-  }
-}
-
-@media (max-width: 730px) {
-  .imgsize {
+@media screen and (max-width: 1710px) {
+  .koleso {
     display: none;
   }
-  nav {
-    height: 21vh;
-  }
-  button {
-    margin-top: -15vh;
-    margin-right: 15vw;
-    font-size: 20px;
-  }
   .textplace {
-    margin-left: 5vw;
+    margin-top: 70px;
+  }
+  .floatl {
+    font-size: 23px;
+    padding-left: 5%;
+    padding-top: 50px;
     float: left;
   }
   .linky {
-    font-size: 20px;
-    line-height: 3;
-    float: left;
-    margin-left: -10vw;
-    margin-top: 5vh;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: 2s;
+    transition: 2s;
+    font-size: 1.6rem;
   }
   .linky1 {
-    font-size: 20px;
-    line-height: 3;
-    float: center;
-    margin-right: 1vw;
-    padding-left: -3vw;
-    margin-top: 5vh;
-  }
-  .linky:hover {
-    background-color: lightblue;
-    -webkit-transition: 3s;
-    transition: 3s;
-    border-radius: 5px;
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 657px) {
-  button {
-    margin-top: -18vh;
-    margin-right: 15vw;
-    font-size: 20px;
-  }
-  .linky {
-    position: absolute;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: 2s;
+    transition: 2s;
+    font-size: 1.6rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
