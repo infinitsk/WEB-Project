@@ -2,29 +2,25 @@
   margin: 0;
   padding: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  overflow: hidden;
 }
 
+/*
 .fix {
-  padding-left: 2vw;
+    padding-left: 2vw;
 }
-
+*/
 .koleso {
-  height: 90px;
-  margin: 25px;
+  height: 5vw;
+  margin: 5vw;
   float: left;
 }
 
-.bin {
-  height: 90px;
+.basket {
+  height: 10vh;
+  width: auto;
   margin: 8px;
   float: right;
-  width: 100%;
-}
-
-.textplace {
-  float: left;
-  margin-top: 50px;
-  font-size: 40px;
 }
 
 nav {
@@ -35,58 +31,18 @@ nav {
   width: 100%;
 }
 
-.floatl {
-  font-size: 23px;
-  padding-left: 12%;
-  line-height: 5;
-  float: left;
-}
-
 .floatr {
   float: right;
   padding-right: 2vw;
 }
 
-.linky {
-  text-decoration: none;
-  color: white;
-  -webkit-transition: 2s;
-  transition: 2s;
-  font-size: 1.6rem;
-}
-
-.linky1 {
-  text-decoration: none;
-  color: white;
-  -webkit-transition: 2s;
-  transition: 2s;
-  font-size: 1.6rem;
-}
-
-.linky:hover {
-  background-color: lightblue;
-  -webkit-transition: 3s;
-  transition: 3s;
-  border-radius: 5px;
-  font-size: 24.1px;
-}
-
-.linky1:hover {
-  background-color: lightblue;
-  -webkit-transition: 1.5s;
-  transition: 1.5s;
-  border-radius: 5px;
-}
-
 button {
   float: right;
-  padding-right: 200px;
-  padding-top: 50px;
-  border: 0;
   line-height: 2.5;
-  padding: 0 20px;
-  margin: 35px;
-  font-size: 1.6rem;
+  padding: 0 0.5vh;
+  margin-top: 2.5vh;
+  margin-right: 0.5vh;
+  font-size: 2vh;
   text-align: center;
   text-shadow: 1px 1px 1px #000;
   border-radius: 10px;
@@ -115,98 +71,78 @@ body {
   color: white;
 }
 
-.porche {
-  background-image: url(porche.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 82.1vh;
+ul li {
+  margin-top: 30%;
+  margin-left: 20%;
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left top, right top, from(#000000), color-stop(#19000b), color-stop(#230019), color-stop(#290028), color-stop(#29003b), color-stop(#2b004f), color-stop(#270166), color-stop(#0e097f), color-stop(#170e9a), color-stop(#2014b6), color-stop(#291ad3), to(#3220f0));
-  background-image: linear-gradient(to right, #000000, #19000b, #230019, #290028, #29003b, #2b004f, #270166, #0e097f, #170e9a, #2014b6, #291ad3, #3220f0);
-  height: 6vh;
-  font-size: 50px;
-  text-align: center;
+  font-size: 1vh;
+  text-align: right;
   border-top: solid black 5px;
   padding-top: 5px;
   letter-spacing: 3px;
 }
 
-nav ul li {
-  float: left;
-  list-style: none;
-  position: relative;
+.container {
+  display: -ms-grid;
+  display: grid;
 }
 
-nav ul li a {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-size: 20px;
-  padding: 0px 14px;
-  margin-bottom: 0px;
-  text-decoration: none;
-  display: block;
-  float: left;
+@media (max-width: 1600px) {
+  .container {
+    background-color: red;
+  }
 }
 
-nav ul li ul {
-  display: none;
-  position: absolute;
-  background-color: #05054d;
-  padding: 10px;
-  border-radius: 5px;
-  border-left: solid black 5px;
-  border-bottom: solid black 5px;
-  border-right: solid black 5px;
+.porsche {
+  background-image: url(porsche.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 89vh;
+  background-size: 85vw 70vw;
+  background-position-x: -10vw;
 }
 
-nav ul li:hover ul {
-  display: block;
+.kosostvorec {
+  background-color: #004AAD;
+  margin-left: 62%;
+  height: 100vh;
+  width: 38vw;
+  -webkit-transform: skewX(-10deg);
+          transform: skewX(-10deg);
 }
 
-nav ul li ul li {
-  width: 180px;
-  border-radius: 5px;
-  padding: -10px;
-}
-
-nav ul li ul li a:hover {
-  background-color: #c0b0b0;
-}
-
+/*
 @media screen and (max-width: 1875px) {
-  .bin {
-    display: none;
-  }
+    .bin{
+        display: none;
+        }
 }
-
 @media screen and (max-width: 1710px) {
-  .koleso {
-    display: none;
-  }
-  .textplace {
-    margin-top: 70px;
-  }
-  .floatl {
-    font-size: 23px;
-    padding-left: 5%;
-    padding-top: 50px;
-    float: left;
-  }
-  .linky {
-    text-decoration: none;
-    color: white;
-    -webkit-transition: 2s;
-    transition: 2s;
-    font-size: 1.6rem;
-  }
-  .linky1 {
-    text-decoration: none;
-    color: white;
-    -webkit-transition: 2s;
-    transition: 2s;
-    font-size: 1.6rem;
-  }
-}
+    .koleso{
+        display: none;
+    }
+    .textplace{
+        margin-top: 70px;
+    }
+    .floatl{
+        font-size: 23px;
+        padding-left: 5%;
+        padding-top: 50px;
+        float: left;
+    }
+    .linky{
+        text-decoration: none;
+        color: white;
+        transition: 2s;
+        font-size: 1.6rem;
+    }
+    .linky1{
+        text-decoration: none;
+        color: white;
+        transition: 2s;
+        font-size: 1.6rem;
+    }
+}*/
 /*# sourceMappingURL=style.css.map */
