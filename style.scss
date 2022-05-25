@@ -11,7 +11,12 @@
     margin: 8px;
     float: left;
 }
-.textpadding{
+.imgsize1{
+    height: 90px;
+    margin: 8px;
+    float: right;
+}
+.textplace{
     float: left;
     line-height: 2.6;
     font-size: 40px;
@@ -96,7 +101,7 @@ body{
 }
 footer{
     background-image: linear-gradient(to right, #000000, #19000b, #230019, #290028, #29003b, #2b004f, #270166, #0e097f, #170e9a, #2014b6, #291ad3, #3220f0);
-    height: 5.5vh;
+    height: 6vh;
     font-size: 50px;
     text-align: center;
     border-top: solid black 5px;
@@ -138,5 +143,134 @@ nav ul li ul li{
 }
 nav ul li ul li a:hover{
     background-color: rgb(192, 176, 176);
-  }     
-  
+}
+
+@media(max-width: 1620px){
+    nav{
+        height: 20vh;
+    }
+    .textplace{
+        line-height: 3;
+        font-size: 50px;
+    }
+    .imgsize{
+        height: 120px;
+        padding-top: 1vh;
+    }
+    .imgsize1{
+        float: left;
+    }
+    .linky{
+        font-size: 25px;
+    }
+    .linky1{
+        font-size: 25px;
+    }
+    .porche{
+        background-attachment: fixed;
+        background-position: center bottom;
+    }
+}
+
+@media(max-width: 1390px){
+    .imgsize1{
+        float: left;
+        display: none;
+    }
+    button{
+        margin-top: -200px;
+        font-size: 30px;
+    }
+    .textplace{
+        line-height: 2.5;
+        font-size: 50px;
+    }
+    .linky{
+        font-size: 25px;
+        line-height: 3;
+        margin-left: -4vw;
+    }
+    .linky1{
+        font-size: 25px;
+        line-height: 3;
+        margin-left: -3vw;
+    }
+    .porche{
+        background-attachment: fixed;
+        background-position: center bottom;
+    }
+}
+
+@media(max-width: 900px){
+
+    .linky{
+        font-size: 20px;
+        line-height: 3;
+        float:left;
+        margin-left: -7vw;
+    }
+    .linky1{
+        font-size: 20px;
+        line-height: 3;
+        float:center;
+        margin-right: 1vw;
+    }
+    .porche{
+        background-attachment: fixed;
+        background-position: center bottom;
+    }
+    button{
+        margin-top: -235px;
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 730px){
+    .imgsize{
+        display: none;
+    }
+    nav{
+        height: 21vh;
+    }
+    button{
+        margin-top: -15vh;
+        margin-right: 15vw;
+        font-size: 20px;
+    }
+    .textplace{
+        margin-left: 5vw;
+        float: left;
+    }
+    .linky{
+        font-size: 20px;
+        line-height: 3;
+        float:left;
+        margin-left: -10vw;
+        margin-top: 5vh;
+    }
+    .linky1{
+        font-size: 20px;
+        line-height: 3;
+        float:center;
+        margin-right: 1vw;
+        padding-left: -3vw;
+        margin-top: 5vh;
+    }
+    .linky:hover{
+        background-color: lightblue;
+        transition: 3s;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 657px){
+    button{
+        margin-top: -18vh;
+        margin-right: 15vw;
+        font-size: 20px;
+    }
+    .linky{
+        position: absolute;
+    }
+}
